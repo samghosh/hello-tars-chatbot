@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.hello-tars-chatbot {
+  position: absolute;
+  height: 50px;
+  right: 20px;
+  bottom: 20px;
+}
+
+.hello-tars-chatbot:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.hello-tars-chatbot-container {
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
